@@ -7,8 +7,8 @@ def load_csv(url):
     return pd.read_csv(url)
 
 # Load the data
-# df = load_csv("https://people.sc.fsu.edu/~jburkardt/data/csv/airtravel.csv")
-df = load_csv("C:/Users/Mehrnoush/Desktop/starcoach/Classes/class s00/airtravel.csv")
+df = load_csv("airtravel.csv")
+
 st.success("CSV loaded successfully!")
 
 # Use Streamlit's line_chart with x='Month' to preserve order
